@@ -1,8 +1,107 @@
+<!DOCTYPE html>
 <html>
     <head>
-        Welcome
+        <!-- meta標籤 -->
+        <!-- 網頁的編碼 --><!-- 中間沒有文字可以剩略寫成<meta charset="UTF-8"/> -->
+        <meta charset="UTF-8"></meta>
+        <!-- 搜尋引擎下方的描述-->
+        <mata name="description" content="我的第一個網頁"/>
+        <meta name="author" content="thchen"/>
+        <meta name="keywords" content="網站,氣象,html"/>
+        <!-- 根據不同裝置調整畫面比例-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>我的網頁</title>
     </head>
     <body>
-        <h1>Hello</h1>
+        <!-- 基本標籤 -->
+
+        <!-- h1~h6字體由大到小 -->
+        <h2>第一篇文章</h2>
+        <!-- i:斜體 b:粗體 -->
+        <p>今天<b><i>天氣</i></b>好</p>
+        <!-- 換行 -->
+        <br/>
+        <br/>
+        <!-- 水平線 -->
+        <hr/>
+        <h2>第二篇文章</h2>
+
+        <!-- 連結 & 圖片-->
+        <a href="http://www.google.com.tw">google網站</a>
+        <a href="page2.html">第二頁</a>
+        <!-- dir/代表進入此資料夾-->
+        <a href="dir/page3.html">第三頁</a>
+        <a href="pulmrain.jpg">梅雨</a>
+
+        <img src="https://s.yimg.com/ny/api/res/1.2/mTluzj6_rGqjprCOorfSGQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQxNA--/https://s.yimg.com/uu/api/res/1.2/cLcqkjaFyrFGo6s860sL5w--~B/aD01MTc7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/ko/setn.com.tw/da48fea7c7b7d23fb46d2250dd4d501e" height="400">
+        <img src="images/pulmrain.jpg" width="400"/>
+
+        <!-- 影片 & 遷入youtube影片-->
+        <!-- 中間文字代表無法播放時顯示的文字-->
+        <video src="myvideo.mp4" controls width="400">瀏覽器無法載入影片</video>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SE2PHl0E9FM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+        <!-- 列表 && 表格-->
+        <!-- <ul>替換成 <ol> 代表用數字排序 也可以再加上 <ol type="" A或a或i....> -->
+        <ul>
+            <li>google</li>
+            <li>facebook</li>
+            <li>instagram</li>
+            <li>ptt</li>
+        </ul>
+
+        <table>
+            <tr>
+                <td>日期</td>
+                <td>數學</td>
+                <td>英文</td>
+            </tr>
+            <tr>
+                <td>2/8</td>
+                <td>88</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>2/9</td>
+                <td>90</td>
+                <td>80</td>
+            </tr>
+        </table>   
+
+            <!-- html的容器 div & span-->
+
+            <a href="#">link1</a>
+            <a href="#">link2</a>
+            <hr/>
+            <p>你好</p>
+            <p>你好</p>
+            <!-- span 寬度多少佔多少 div 佔一整行-->
+            <span>span1</span>
+            <span>span2</span>
+            <hr/>
+            <div>div1</div>
+            <div>div2</div>
+
+            <!-- html輸入標籤-->
+            <input type="text" placeholder="請輸入帳號"/>
+            <br/>
+            <br/>
+            <input type="password" placeholder="請輸入密碼"/>
+            <br/>
+            <br/>
+            <input type="date"/>
+            <br/>
+            <br/>
+            <input type="range"/>
+            <br/>
+            <br/>
+            <input type="file"/>
+            <br/>
+            <br/>
+            <input type="checkbox"/>
+            <br/>
+            <br/>
+            <!-- 中間文字代表預設出現文字-->
+            <textarea>你好</textarea>
     </body>
 </html>
